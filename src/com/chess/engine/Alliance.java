@@ -1,2 +1,5 @@
-package com.chess.engine;public enum Alliance {
+package com.chess.engine;
+
+public enum Alliance {
+    BLACK, WHITE
 }

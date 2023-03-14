@@ -1,2 +1,8 @@
-package com.chess.engine.board;public class Board {
+package com.chess.engine.board;
+
+public class Board {
+
+    public Tile getTile(final int tileCoordinate){
+        return null; //stand in value for now
+    }
 }

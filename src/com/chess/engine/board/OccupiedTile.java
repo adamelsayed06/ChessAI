@@ -1,6 +1,5 @@
-package board;
-
-import board.Tile;
+package com.chess.engine.board;
+import com.chess.engine.pieces.Piece;
 
 public class OccupiedTile extends Tile {
     private final Piece pieceOnTile;

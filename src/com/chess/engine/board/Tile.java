@@ -1,7 +1,10 @@
-package board;
+package com.chess.engine.board;
 
+import com.chess.engine.pieces.Piece;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Collections;
+
 
 public abstract class Tile {
 
@@ -14,7 +17,7 @@ public abstract class Tile {
         for(int i = 0; i < 64; i++){
             emptyTileMap.put(i, new EmptyTile(i));
         }
-        return emptyTileMap;
+        return Collections.unmodifiableMap(emptyTileMap);
     }
 
     public Tile(int tileCoord){

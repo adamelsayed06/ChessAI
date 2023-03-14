@@ -1,6 +1,6 @@
 package com.chess.engine.board;
 
-import board.Tile;
+import com.chess.engine.pieces.Piece;
 
 public class EmptyTile extends Tile {
     public EmptyTile(final int coordinate){
